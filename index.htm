@@ -6,5 +6,215 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Weather App</title>
   </head>
-  <body></body>
+  <body>
+    <header></header>
+    <nav>
+      <ul>
+        <li style="float: right">Home</li>
+        <li style="float: right">News</li>
+        <li style="float: right">Weather</li>
+        <li style="float: right">About</li>
+      </ul>
+    </nav>
+    <main>
+      <section class="weather-section">
+        <div class="page">
+          <h1>LATEST WEATHER</h1>
+          <div class="archive">
+            <article class="article">
+              <section id="stats">
+                <div class="summary">
+                  <h2>Weather summary</h2>
+                  <h3 id="five-city">Tooele</h3>
+                  <fieldset>
+                    <p>
+                      Currently:
+                      <span id="current-desc">
+                        <em><strong>Cloudy with rain</strong></em>
+                      </span>
+                    </p>
+                    <p>
+                      Temperature:
+                      <span id="current-temp">
+                        <em><strong>43°F</strong></em>
+                      </span>
+                    </p>
+                    <p>
+                      Wind Chill:
+                      <span id="current-windChill">
+                        <em><strong>38°F</strong></em>
+                      </span>
+                    </p>
+                    <p>
+                      Humidity:
+                      <span id="current-humid">
+                        <em><strong>88%</strong></em>
+                      </span>
+                    </p>
+                    <p>
+                      Wind Speed:
+                      <span id="current-windSpeed">
+                        <em><strong>8</strong></em>
+                        mph
+                      </span>
+                    </p>
+                  </fieldset>
+                </div>
+              </section>
+              <div>
+                <fieldset>
+                  <span id="todayTitle0" class="col-head">
+                    <u>Today</u>
+                  </span>
+                  <figure>
+                    <img
+                      src="WeatherIcons/Cloudy, Overcast.png"
+                      alt="Today's Weather"
+                    />
+                  </figure>
+                </fieldset>
+              </div>
+            </article>
+
+            <!-- 5 day forecast -->
+
+            <div class="article-five-day">
+              <article id="forecastContainer">
+                <h2 id="forecastTitle">5 Day Forecast</h2>
+                <h3 id="city">Tooele</h3>
+                <div class="flex">
+                  <div class="flex-col">
+                    <fieldset>
+                      <span id="dayTitle1" class="col-head">
+                        <u>Friday</u>
+                      </span>
+                      <figure>
+                        <img
+                          src="WeatherIcons/Clear, Day.png"
+                          id="weatherIcon1"
+                          class="weatherIcon"
+                        />
+                      </figure>
+                      <span class="temp-data">
+                        <span id="data1high">
+                          <em><strong>43°F</strong></em>
+                          High
+                        </span>
+                        <span id="data1low">
+                          |
+                          <em><strong>25°F</strong></em>
+                          Low
+                        </span>
+                      </span>
+                    </fieldset>
+                  </div>
+                  <div class="flex-col">
+                    <fieldset>
+                      <span id="dayTitle2" class="col-head">
+                        <u>Saturday</u>
+                      </span>
+                      <figure>
+                        <img
+                          src="WeatherIcons/Clear, Day.png"
+                          id="weatherIcon2"
+                          class="weatherIcon"
+                        />
+                      </figure>
+                      <div class="temp-data">
+                        <span id="data2high">
+                          <em><strong>51°F</strong></em>
+                          High
+                        </span>
+                        <span id="data2low">
+                          |
+                          <em><strong>32°F</strong></em>
+                          Low
+                        </span>
+                      </div>
+                    </fieldset>
+                  </div>
+                  <div class="flex-col">
+                    <fieldset>
+                      <span id="dayTitle3" class="col-head">
+                        <u>Sunday</u>
+                      </span>
+                      <figure>
+                        <img
+                          src="WeatherIcons/Clear, Day.png"
+                          id="weatherIcon3"
+                          class="weatherIcon"
+                        />
+                      </figure>
+                      <div class="temp-data">
+                        <span id="data3high">
+                          <em><strong>59°F</strong></em>
+                          High
+                        </span>
+                        <span id="data3low">
+                          |
+                          <em><strong>40°F</strong></em>
+                          Low
+                        </span>
+                      </div>
+                    </fieldset>
+                  </div>
+                  <div class="flex-col">
+                    <fieldset>
+                      <span id="dayTitle4" class="col-head">
+                        <u>Monday</u>
+                      </span>
+                      <figure>
+                        <img
+                          src="WeatherIcons/Cloudy, Rain.png"
+                          id="weatherIcon4"
+                          class="weatherIcon"
+                        />
+                      </figure>
+                      <div class="temp-data">
+                        <span id="data4high">
+                          <em><strong>52°F</strong></em>
+                          High
+                        </span>
+                        <span id="data4low">
+                          |
+                          <em><strong>36°F</strong></em>
+                          Low
+                        </span>
+                      </div>
+                    </fieldset>
+                  </div>
+                  <div class="flex-col">
+                    <fieldset>
+                      <span id="dayTitle5" class="col-head">
+                        <u>Tuesday</u>
+                      </span>
+                      <figure>
+                        <img
+                          src="WeatherIcons/Cloudy, Rain.png"
+                          id="weatherIcon5"
+                          class="weatherIcon"
+                        />
+                      </figure>
+                      <div class="temp-data">
+                        <span id="data5high">
+                          <em><strong>52°F</strong></em>
+                          High
+                        </span>
+                        <span id="data5low">
+                          |
+                          <em><strong>35°F</strong></em>
+                          Low
+                        </span>
+                      </div>
+                    </fieldset>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
 </html>
