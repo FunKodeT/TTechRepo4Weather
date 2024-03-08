@@ -5,6 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Weather App</title>
+    <style>
+      .header1 {
+        border: 3px solid black;
+      }
+      .header2 {
+        border: 2px solid black;
+      }
+      .footer {
+        border: 2px solid black;
+      }
+    </style>
   </head>
   <body>
     <header></header>
@@ -19,13 +30,13 @@
     <main>
       <section class="weather-section">
         <div class="page">
-          <h1>LATEST WEATHER</h1>
+          <h1 style="text-align: center" class="header1">LATEST WEATHER</h1>
           <div class="archive">
             <article class="article">
               <section id="stats">
                 <div class="summary">
-                  <h2>Weather summary</h2>
-                  <h3 id="five-city">Tooele</h3>
+                  <h2 class="header2">Weather Summary</h2>
+                  <h3 id="five-city" style="text-align: center">Tooele</h3>
                   <fieldset>
                     <p>
                       Currently:
@@ -80,8 +91,8 @@
 
             <div class="article-five-day">
               <article id="forecastContainer">
-                <h2 id="forecastTitle">5 Day Forecast</h2>
-                <h3 id="city">Tooele</h3>
+                <h2 id="forecastTitle" class="header2">5 Day Forecast</h2>
+                <h3 id="city" style="text-align: center">Tooele</h3>
                 <div class="flex">
                   <div class="flex-col">
                     <fieldset>
@@ -214,7 +225,73 @@
           </div>
         </div>
       </section>
+
+      <section class="news-section">
+        <div class="page">
+          <h1 style="text-align: center" class="header1">LATEST NEWS</h1>
+          <div class="archive">
+            <article class="article">
+              <img id="header-img" alt="main article" />
+              <h2>
+                <a id="header-article"></a>
+              </h2>
+              <p id="header-desc">No Article Description.</p>
+            </article>
+            <article class="article">
+              <img
+                id="article-img-1"
+                src="http://placekitten.com/g/200/200"
+                alt="main article"
+              />
+              <h3>
+                <a id="article-link-1">No Article Title</a>
+              </h3>
+              <p id="article-desc-1">No Article Description.</p>
+            </article>
+            <article class="article">
+              <img
+                id="article-img-1"
+                src="http://placekitten.com/g/200/200"
+                alt="main article"
+              />
+              <h3>
+                <a id="article-link-1">No Article Title</a>
+              </h3>
+              <p id="article-desc-1">No Article Description.</p>
+            </article>
+            <article class="article">
+              <img
+                id="article-img-1"
+                src="http://placekitten.com/g/200/200"
+                alt="main article"
+              />
+              <h3>
+                <a id="article-link-1">No Article Title</a>
+              </h3>
+              <p id="article-desc-1">No Article Description.</p>
+            </article>
+            <article class="article">
+              <img
+                id="article-img-1"
+                src="http://placekitten.com/g/200/200"
+                alt="main article"
+              />
+              <h3>
+                <a id="article-link-1">No Article Title</a>
+              </h3>
+              <p id="article-desc-1">No Article Description.</p>
+            </article>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div style="text-align: center" class="footer">
+        © 2024 | Matthew L. Cootey |
+        <strong><u>Tooele Technical College</u></strong
+        ><br />
+        <sub style="text-align: center"> Last Updated: Fri, 08 Mar 2024</sub>
+      </div>
+    </footer>
   </body>
 </html>
