@@ -14,3 +14,10 @@ TTechRepo4Weather Git Branches:
   - Created branches within the repository to track and maintain specific sections of the code. See above the patch notes version for a list 
 of currently active branches, their names, as well as their intended purpose.
   - Updated TTechRepo4Weather with all changes made 20240307, 'Weather' is now in final draft form awaiting further updates.
+  - Merged all updates made to branch '1' into branch '0' successfully and without error.
+
+>2.0
+  - Updated index.htm with code appropriately setting the baseline for the Project, specifically the 'News' section of this webpage.
+  - Merged all updates made to branch '2' into branch '0' successfully and without error.
+  - Renamed 'index.htm' to 'TTechWeatherNewsM1.htm' to better represent Project purpose and focus.
+  - All updates have been pushed to Remote repository 'TTechRepo4Weather'.
